@@ -1,0 +1,5 @@
+torch
+tokenizers
+pandas
+numpy
+tqdm
