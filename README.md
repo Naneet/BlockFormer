@@ -66,7 +66,7 @@ BlockFormer/
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/BlockFormer.git
+git clone https://github.com/Naneet/BlockFormer
 cd BlockFormer
 pip install -r requirements.txt
 ```
