@@ -22,11 +22,11 @@ A decoder-only transformer language model built from scratch in PyTorch, trained
 Trained for 40 epochs on TinyStories using AdamW (lr=3e-4, weight decay=0.01) with mixed-precision training (FP16) and gradient clipping (max norm=1.0).
 
 <p align="center">
-  <img src="assets/training-curve.png" width="400"/>
+  <img src="assets/training-curve.png" width="800"/>
 </p>
 
 <p align="center">
-  <img src="assets/test-perplexity.png" width="400"/>
+  <img src="assets/test-perplexity.png" width="800"/>
 </p>
 
 | Metric | Value |
