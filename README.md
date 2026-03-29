@@ -19,7 +19,7 @@ A decoder-only transformer language model built from scratch in PyTorch, trained
 
 ## Training
 
-Trained for 14 epochs on TinyStories using AdamW (lr=3e-4, weight decay=0.01) with mixed-precision training (FP16) and gradient clipping (max norm=1.0).
+Trained for 40 epochs on TinyStories using AdamW (lr=3e-4, weight decay=0.01) with mixed-precision training (FP16) and gradient clipping (max norm=1.0).
 
 <p align="center">
   <img src="assets/training-curve.png" width="400"/>
@@ -28,9 +28,9 @@ Trained for 14 epochs on TinyStories using AdamW (lr=3e-4, weight decay=0.01) wi
 
 | Metric | Value |
 |---|---|
-| Final Train Loss | ~3.25 |
-| Final Test Loss | ~3.10 |
-| Final Perplexity | ~22.27 |
+| Final Train Loss | ~2.92 |
+| Final Test Loss | ~2.81 |
+| Final Perplexity | ~16.58 |
 
 ## KV Cache
 
@@ -95,9 +95,24 @@ The original development was done on Kaggle. The notebooks contain the full trai
 ```
 Prompt: "Once upon a time there was a lion"
 
-Once upon a time there was a lion all envelope in their biggest way
-they had sang together cry. One day they decided mean scent all along,
-but they didn't always have any money with him...
+Once upon a time there was a lion! One day the lion went to the zoo with his big lion friends. The lion was so lively
+that he ran around spending time erasing noises. Suddenly, one of the animals stopped and pointed discouraged.
+
+The lion was getting smudged and mad. Then, a little rabbit came and riddle started to dream. The waddled over aparelass
+and told the lion, "The brave lion must have kept the voice calling!"
+
+The lion belers thought until they had an idea. He put the bear in a bowl of water and began to pour the water over it
+scatter the water over the lion's birds. After a few minutes, the lion was done color and looked at Nobody use the water!
+Bees of the animals were surprised and ran away happily necessary.
+
+ibbit castles were full of excitement and the lion was proud that the mouse had been able to help the animals. Even though
+he still had aBeep walk with the lion, he was almost able drinking. micr and the lion remainedicying the animals Remember
+to always permitier them to use a fork before helping the forms.umbo remained melody and reminding blottie for the whole day.
+ending the lion's fears had been explained to them and that it was a great story to remember.
 ```
 
 > The model generates coherent short story beginnings but shows expected limitations for a 27M parameter model trained on limited data.
+
+## Model Weights
+
+You can download epoch 38-40 weights from [here](https://www.kaggle.com/models/naneet1/blockformer/PyTorch/v2/1)! 
