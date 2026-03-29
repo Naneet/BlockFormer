@@ -23,6 +23,9 @@ Trained for 40 epochs on TinyStories using AdamW (lr=3e-4, weight decay=0.01) wi
 
 <p align="center">
   <img src="assets/training-curve.png" width="400"/>
+</p>
+
+<p align="center">
   <img src="assets/test-perplexity.png" width="400"/>
 </p>
 
