@@ -29,6 +29,8 @@ Trained for 40 epochs on TinyStories using AdamW (lr=3e-4, weight decay=0.01) wi
   <img src="assets/test-perplexity.png" width="800"/>
 </p>
 
+Note: The data for epoch 36-38 was lost :(
+
 | Metric | Value |
 |---|---|
 | Final Train Loss | ~2.92 |
