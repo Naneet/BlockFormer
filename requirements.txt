@@ -3,3 +3,4 @@ tokenizers
 pandas
 numpy
 tqdm
+tokenizers
