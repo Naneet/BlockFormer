@@ -98,6 +98,8 @@ class TransformerDecoder(nn.Module):
         if return_cache and kv_cache == None:
             use_cache = True
             kv_cache = [None for _ in range(len(self.layers))]
+        elif kv_cache is not None:
+            use_cache = True
         else:
             use_cache = False
         x = input_ids

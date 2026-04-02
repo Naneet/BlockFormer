@@ -54,7 +54,9 @@ class MHA(nn.Module):
             query = self.rope(query, offset=offset)
 
         elif return_cache:
+            key = self.rope(key, offset=None)
             kv_cache = [key, value]
+            query = self.rope(query, offset=None)
 
         else:
             query = self.rope(query)
