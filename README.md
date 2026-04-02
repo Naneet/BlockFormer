@@ -63,6 +63,7 @@ BlockFormer/
 │   ├── blockformer-trainer.ipynb    # Training notebook (Kaggle)
 │   └── blockformer-inference.ipynb  # Inference & benchmarking notebook (Kaggle)
 ├── assets/                # Charts and figures
+├── tokenizer.py           # Create BPE tokenizer
 ├── trainer.py             # Training script
 ├── requirements.txt
 └── README.md
